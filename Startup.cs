@@ -32,7 +32,7 @@ namespace vindemo
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Try Something different, like Azure!");
                 });
             });
         }
